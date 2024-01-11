@@ -1,0 +1,98 @@
+/* sync test  */
+
+:root {
+    /* colors  */
+    --color-primary: hsl(47, 88%, 63%);
+    --color-neutral-white: hsl(0, 0%, 100%);
+    --color-neutral-grey: hsl(0, 0%, 50%);
+    --color-neutral-black: hsl(0, 0%, 7%);
+    /* fonts  */
+    --ft-weight-normal: 600;
+    --ft-weight-bold: 800;
+    /* card  */
+    --card-padding: 1.5rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree', sans-serif;
+    color: var(--color-neutral-black);
+    background-color: var(--color-primary);
+    font-weight: var(--ft-weight-normal);
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+.blog-posts {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    --box-shadow: 8px;
+    max-width: clamp(20.8rem, 1.5vw, 20.9rem);
+    /* height: 39.5vh; */
+    padding: var(--card-padding);
+    margin-inline: 1.5rem;
+    background-color: var(--color-neutral-white);
+    border: 1.8px solid var(--color-neutral-black);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow) var(--box-shadow) var(--color-neutral-black);
+}
+
+.card:hover {
+    box-shadow: calc(var(--box-shadow) * 2) calc(var(--box-shadow) * 2) var(--color-neutral-black);
+    transition: .3s;
+}
+
+.card > img {
+    max-width: 100%;
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.tag {
+    max-width: 4rem;
+    text-align: center;
+    padding: .35rem .6rem;
+    background-color: var(--color-primary);
+    border-radius: 4px;
+}
+
+.heading:hover {
+    color: var(--color-primary);
+    cursor: pointer;
+    caret-color: invert;
+}
+
+.text {
+    color: var(--color-neutral-grey);
+    line-height: 1.5rem;
+}
+
+.author > img {
+    width: 2rem;
+    vertical-align: middle;
+}
+
+.author-name {
+    margin-left: .5rem;
+    vertical-align: middle;
+}
+
+footer {
+    text-align: center;
+}
+
+
+/* utility  */
+.small-font {
+    font-size: .9rem;
+}
+
+.bold {
+    font-weight: var(--ft-weight-bold);
+}
