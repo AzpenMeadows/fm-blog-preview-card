@@ -70,5 +70,5 @@ I would like to learn a litte more about auto resizing elemants based on screen 
 
 ## Author
 
-- Github - [AzpenMeadows](https://www.your-site.com](https://github.com/AzpenMeadows)
+- Github - [AzpenMeadows]([https://www.frontendmentor.io/profile/AzpenMeadows](https://github.com/AzpenMeadows))
 - Frontend Mentor - [@AzpenMeadows](https://www.frontendmentor.io/profile/AzpenMeadows)
