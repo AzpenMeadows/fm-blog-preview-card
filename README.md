@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/blog-preview-card-using-html-css-cUJXIObK-s))
+- Solution URL: [Add solution URL here](https://your-solution-url.com](https://www.frontendmentor.io/solutions/blog-preview-card-using-html-css-cUJXIObK-s)
 - Live Site URL: [Add live site URL here](https://azpenmeadows.github.io/fm-blog-preview-card/)
 
 ## My process
@@ -70,5 +70,5 @@ I would like to learn a litte more about auto resizing elemants based on screen 
 
 ## Author
 
-- Github - [AzpenMeadows]([https://www.your-site.com](https://github.com/AzpenMeadows))
+- Github - [AzpenMeadows](https://www.your-site.com](https://github.com/AzpenMeadows)
 - Frontend Mentor - [@AzpenMeadows](https://www.frontendmentor.io/profile/AzpenMeadows)
